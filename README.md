@@ -46,7 +46,7 @@ A lightweight, web-based canvas editor built with React, Fabric.js, and Firebase
    - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
    - Enable Firestore and obtain your Firebase configuration.
    - Update `src/lib/firebase.ts` with your Firebase configuration:
-     ```ts
+ 
      const firebaseConfig = {
        apiKey: "your-api-key",
        authDomain: "your-auth-domain",
@@ -55,27 +55,19 @@ A lightweight, web-based canvas editor built with React, Fabric.js, and Firebase
        messagingSenderId: "your-messaging-sender-id",
        appId: "your-app-id"
      };
-     ```
 
 4. **Run the Development Server**:
-   ```bash
-   npm run dev
-   ```
-   The app will be available at `http://localhost:5173`.
+   The app will be available at `http://localhost:8080`.
 
 5. **Build for Production**:
-   ```bash
    npm run build
-   ```
 
 6. **Deploy**:
    - Deploy to Firebase Hosting, Vercel, or any platform of your choice. For Firebase:
-     ```bash
      npm install -g firebase-tools
      firebase login
      firebase init hosting
      firebase deploy
-     ```
 
 ## Trade-Offs
 
