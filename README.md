@@ -33,8 +33,8 @@ A lightweight, web-based canvas editor built with React, Fabric.js, and Firebase
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/canvas-editor.git
-   cd canvas-editor
+   git clone https://github.com/PraveenKumar22C/canvas-snap
+   cd canvas-snap
    ```
 
 2. **Install Dependencies**:
@@ -91,10 +91,14 @@ A lightweight, web-based canvas editor built with React, Fabric.js, and Firebase
 - **Optimizations**: Further optimize Firestore writes by batching updates or using delta encoding.
 - **Accessibility**: Improve keyboard navigation and screen reader support for better usability.
 
+## Github Repo
+https://github.com/PraveenKumar22C/canvas-snap
+
 ## Live Demo
 
-[Insert live demo link here after deployment]
+https://canvas-editor-c2de6.web.app/
+https://canvas-editor-c2de6.firebaseapp.com/
 
 ## Video Walkthrough
 
-[Insert link to video recording showcasing the solution]
+https://drive.google.com/file/d/1tbJ2bW6wWbACzdMnvCSQUQlYLwI1Td9w/view?usp=drive_link
